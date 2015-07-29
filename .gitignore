@@ -133,3 +133,4 @@ nbproject
 cf-ssh.yml
 .env
 .sass-cache
+.settings
