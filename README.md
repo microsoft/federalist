@@ -39,9 +39,9 @@ You'll notice that we talk about a `/config/local.js` file below, particularly f
 
 * Download or Clone this repository from Github either by using the command line or repo's website on Github. On the right side of the repo's page, there is a button that states "Clone in Desktop".
 *
-* Run `npm install` from the root(the directory that houses the projects files on your computer) of the repository to load modules and install Jekyll dependencies
+* Run `npm install` from the root (the directory that houses the projects files on your computer) of the repository to load modules and install Jekyll dependencies
 
-Together these commands will looks something like the following:
+Together these commands will look something like the following:
 
 ```
 $ git clone git@github.com:18F/federalist.git
@@ -49,7 +49,7 @@ $ cd federalist
 $ npm install
 ```
 
-* Set up [an application on GitHub](https://github.com/settings/applications/new). You'll want to use `http://localhost:1337/auth` as the "Authorization callback url". Once you have created the application, you'll see a Client ID and Client Secret. You'll need to create a JavaScript file and label it local.js. Save this file to the config folder located in the project you downloaded. Use those  values in `config/local.js`
+* Set up [an application on GitHub](https://github.com/settings/applications/new). You'll want to use `http://localhost:1337/auth` as the "Authorization callback url". Once you have created the application, you'll see a Client ID and Client Secret. You'll need to create a JavaScript file and label it local.js. Save this file to the config folder located in the project you downloaded. Use those values in `config/local.js`
 
  ```
   passport: {
